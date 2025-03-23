@@ -3,7 +3,7 @@ name: ghapp-pem-01-prepare-runner-image
 env:
   AZ_RG_NAME: "rg-ghrunner-ghapp-pem"
   AZ_LOCATION: "westeurope"
-  AZ_CR_NAME: "crghrunnerghapppem"
+  AZ_CR_NAME: "crghrunnerghapppem01"
   IMAGE_NAME: "gh-runner-ghapp-pem:1.0"
   DOCKERFILE_PATH: "./runner/ghapp-pem/DOCKERFILE"
 
