@@ -3,12 +3,12 @@ name: ghapp-pem-02-provision-runner
 env:
   AZ_RG_NAME: "rg-ghrunner-ghapp-pem"
   AZ_LOCATION: "westeurope"
-  AZ_CR_NAME: "crghrunnerghapppem"
+  AZ_CR_NAME: "crghrunnerghapppem03"
   IMAGE_NAME: "gh-runner-ghapp-pem:1.0"
-  AZ_CAE_NAME: "cae-ghrunner-ghapp-pem"
-  AZ_CAJ_NAME: "caj-ghrunner-ghapp-pem"
-  AZ_LAW_NAME: "log-runner-ghapp-pem"
-  GH_ORG_NAME: "microsoft"
+  AZ_CAE_NAME: "cae-ghrunner-ghapp-pem-03"
+  AZ_CAJ_NAME: "caj-ghrunner-ghapp-pem-03"
+  AZ_LAW_NAME: "log-runner-ghapp-pem-03"
+  GH_ORG_NAME: "hyggefos-org"
   GH_REPO_NAME: "gh-runners-caj-starter"
 
 on:
