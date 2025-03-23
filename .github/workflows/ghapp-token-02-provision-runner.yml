@@ -28,8 +28,8 @@ jobs:
         with:
           app-id: ${{ secrets.GH_APP_ID }}
           private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
-          owner: ${{ var.GH_ORG_NAME }}
-          repositories: ${{ var.GH_REPO_NAME }}
+          owner: ${{ vars.GH_ORG_NAME }}
+          repositories: ${{ vars.GH_REPO_NAME }}
           skip-token-revoke: true
 
       - name: Azure login
