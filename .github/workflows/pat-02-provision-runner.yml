@@ -3,12 +3,12 @@ name: pat-02-provision-runner
 env:
   AZ_RG_NAME: "rg-ghrunner-pat"
   AZ_LOCATION: "westeurope"
-  AZ_CAE_NAME: "cae-ghrunner-pat"
-  AZ_CAJ_NAME: "caj-ghrunner-pat"
-  AZ_CR_NAME: "crghrunnerpat"
+  AZ_CAE_NAME: "cae-ghrunner-pat-01"
+  AZ_CAJ_NAME: "caj-ghrunner-pat-01"
+  AZ_CR_NAME: "crghrunnerpat01"
   IMAGE_NAME: "gh-runner-pat:1.0"
-  AZ_LAW_NAME: "log-runner-pat"
-  GH_ORG_NAME: "microsoft"
+  AZ_LAW_NAME: "log-runner-pat-01"
+  GH_ORG_NAME: "hyggefos-org"
   GH_REPO_NAME: "gh-runners-caj-starter"
 
 on:
