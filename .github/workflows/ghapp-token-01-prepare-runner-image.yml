@@ -3,7 +3,7 @@ name: ghapp-token-01-prepare-runner-image
 env:
   AZ_RG_NAME: "rg-ghrunner-ghapp-token"
   AZ_LOCATION: "westeurope"
-  AZ_CR_NAME: "crghrunnerghapptoken"
+  AZ_CR_NAME: "crghrunnerghapptoken02"
   IMAGE_NAME: "gh-runner-ghapp-token:1.0"
   DOCKERFILE_PATH: "./runner/ghapp-token/DOCKERFILE"
 
