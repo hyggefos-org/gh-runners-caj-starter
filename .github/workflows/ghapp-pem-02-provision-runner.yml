@@ -70,7 +70,7 @@ jobs:
             --scale-rule-auth "appKey=gh-app-pem" \
             --cpu "2.0" \
             --memory "4Gi" \
-            --secrets "gh-app-pem=${{ secrets.GH_APP_PRIVATE_KEY }}" \
+            --secrets "gh-app-pem=${{ secrets.GH_APP_PEM }}" \
             --env-vars "GH_APP_PEM=secretref:gh-app-pem" "GH_APP_ID=${{ secrets.GH_APP_ID }}" "GH_APP_INSTALL_ID=${{ secrets.GH_APP_INSTALL_ID }}" "REPO_URL=https://github.com/$GH_ORG_NAME/$GH_REPO_NAME" "REGISTRATION_TOKEN_API_URL=https://api.github.com/repos/$GH_ORG_NAME/$GH_REPO_NAME/actions/runners/registration-token" \
             --registry-server "$AZ_CR_NAME.azurecr.io"
 
