@@ -3,7 +3,7 @@ name: pat-01-prepare-runner-image
 env:
   AZ_RG_NAME: "rg-ghrunner-pat"
   AZ_LOCATION: "westeurope"
-  AZ_CR_NAME: "crghrunnerpat"
+  AZ_CR_NAME: "crghrunnerpat01"
   IMAGE_NAME: "gh-runner-pat:1.0"
   DOCKERFILE_PATH: "./runner/pat/DOCKERFILE"
 
