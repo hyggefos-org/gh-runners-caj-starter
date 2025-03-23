@@ -3,12 +3,12 @@ name: ghapp-token-02-provision-runner
 env:
   AZ_RG_NAME: "rg-ghrunner-ghapp-token"
   AZ_LOCATION: "westeurope"
-  AZ_CAE_NAME: "cae-ghrunner-ghapp-token"
-  AZ_CAJ_NAME: "caj-ghrunner-ghapp-token"
-  AZ_CR_NAME: "crghrunnerghapptoken"
+  AZ_CAE_NAME: "cae-ghrunner-ghapp-token-02"
+  AZ_CAJ_NAME: "caj-ghrunner-ghapp-token-02"
+  AZ_CR_NAME: "crghrunnerghapptoken02"
   IMAGE_NAME: "gh-runner-ghapp-token:1.0"
-  AZ_LAW_NAME: "log-runner-ghapp-token"
-  GH_ORG_NAME: "microsoft"
+  AZ_LAW_NAME: "log-runner-ghapp-token-02"
+  GH_ORG_NAME: "hyggefos-org"
   GH_REPO_NAME: "gh-runners-caj-starter"
 
 on:
